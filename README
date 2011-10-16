@@ -1,0 +1,13 @@
+jscat is cat for javascript files.
+
+It was written as a replacement for the 'require' feature of the sprocketize script that used to be a part of sprockets [1]. 
+You may specify dependencies for your javascript files relative to files:
+
+    //= require "dependency.js"
+
+or relative to include paths that are configured with the -I commandline option:
+
+    //= require <external-dependency.js>
+
+
+[1] https://github.com/sstephenson/sprockets
